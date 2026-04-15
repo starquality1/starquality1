@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --navy: #1B2A4A;
+  --gold: #C9A84C;
+  --cream: #FAF6EF;
+  --cream2: #EDE8DC;
+  --bg: #F5F3EF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea,
+input {
+  font-family: inherit;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+textarea:focus,
+input:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
