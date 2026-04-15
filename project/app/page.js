@@ -1,4 +1,4 @@
-import TechCareerApp from '@/components/TechCareerApp';
+import TechCareerApp from '../components/TechCareerApp';
 
 export default function Home() {
   return <TechCareerApp />;
